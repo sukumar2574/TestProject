@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Abercrombie  Fitch</string>
+    <string name="action_settings">Settings</string>
+    <string name="top_description">TopDescription</string>
+    <string name="title">Title</string>
+    <string name="promo_message">PromoMessage</string>
+    <string name="bottom_description">BottomDescription</string>
+</resources>

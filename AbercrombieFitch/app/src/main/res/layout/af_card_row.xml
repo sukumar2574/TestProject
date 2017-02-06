@@ -1,0 +1,82 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/topDescription"
+            style="@style/fontfortopDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgIcon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/top_description" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/fontfortitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topDescription"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/promoMessage"
+            style="@style/fontforpromoMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/promo_message" />
+
+        <TextView
+            android:id="@+id/bottomDescription"
+            style="@style/fontforbottomDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/promoMessage"
+            android:layout_centerHorizontal="true"
+            android:text="@string/bottom_description" />
+
+        <Button
+            android:id="@+id/btnTitleOne"
+            style="@style/fontforbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bottomDescription"
+            android:gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnTitleTwo"
+            style="@style/fontforbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnTitleOne"
+            android:gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnTitleThree"
+            style="@style/fontforbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnTitleTwo"
+            android:gravity="center_horizontal"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
